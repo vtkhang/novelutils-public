@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:{novel_uuid}" />
+    <meta name="dtb:depth" content="1" />
+    <meta name="dtb:totalPageCount" content="0" />
+    <meta name="dtb:maxPageNumber" content="0" />
+  </head>
+<docTitle>
+  <text>{novel_title}</text>
+</docTitle>
+<navMap>
+  <navPoint id="navPoint1">
+    <navLabel>
+      <text>{foreword_title}</text>
+    </navLabel>
+    <content src="../Text/foreword.xhtml" />
+  </navPoint>
+  {navpoint_tag_list}
+</navMap>
+</ncx>

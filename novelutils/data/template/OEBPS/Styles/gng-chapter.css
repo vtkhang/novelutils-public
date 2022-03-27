@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+    text-shadow: 0 0 1px #000;
+}
+
+p {
+    text-indent: 20pt;
+    line-height: 140%;
+    font-size: 100%;
+}

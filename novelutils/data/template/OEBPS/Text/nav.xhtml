@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="{language_code}" xml:lang="{language_code}">
+<head>
+  <title>{nav_title}</title>
+  <meta charset="utf-8"/>
+  <link href="../Styles/sgc-nav.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body epub:type="frontmatter">
+  <nav epub:type="toc" id="toc"><h1>{nav_title}</h1>
+
+  <ol>
+    <li><a href="foreword.xhtml">{foreword_title}</a></li>
+{nav_li_tag_list}
+  </ol></nav>
+
+  <nav epub:type="landmarks" id="landmarks" hidden=""><h1>Landmarks</h1>
+
+  <ol>
+    <li><a epub:type="toc" href="#toc">{nav_title}</a></li>
+
+    <li><a epub:type="cover" href="cover.xhtml">{cover_title}</a></li>
+  </ol></nav>
+</body>
+</html>
